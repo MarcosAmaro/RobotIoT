@@ -1,0 +1,37 @@
+[
+   {
+      "id":"5b6f0982.5be78",
+      "type":"ui_text",
+      "z":"f76f2bb7.c503d8",
+      "group":"7a6581fb.e9e47",
+      "order":2,
+      "width":"2",
+      "height":"1",
+      "name":"TextoDistancia",
+      "label":"",
+      "format":"{{msg.payload}}",
+      "layout":"row-left",
+      "x":552,
+      "y":61,
+      "wires":[
+
+      ]
+   },
+   {
+      "id":"7a6581fb.e9e47",
+      "type":"ui_group",
+      "z":"",
+      "name":"Acción",
+      "tab":"6a2d39f7.23bcc",
+      "disp":true,
+      "width":"6",
+      "collapse":false
+   },
+   {
+      "id":"6a2d39f7.23bcc",
+      "type":"ui_tab",
+      "z":"",
+      "name":"Vehículo UNLa",
+      "icon":"dashboard"
+   }
+]
